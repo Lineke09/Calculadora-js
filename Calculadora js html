@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Softex</title>
+</head>
+<body>
+    <h1> Calculadora Softex</h1>
+    Primeiro número<br/>
+    <input id="n1" type="number" /><br />
+    Segundo númerp<br/>
+    <input id="n2" type="number"/><br/><br />
+    <button onclick="Somar()">Somar</button>
+    <button onclick="Subtrair()">Subtrair</button>
+    <button onclick="Multplicar()">Multiplicar</button>
+    <button onclick="Dividir()">Dividir</button>
+    <br />
+    O Resultado é <span></span>
+
+    <script>
+        var n1 = document.querySelector('#n1')
+        var n2 = document.querySelector('#n2')
+        var resultado = document.querySelector('span')
+
+        function Somar() {
+        resultado.innnerHTML = parseIntn1.value + parseIntn2.value}
+        function Subtrair() {
+        resultado.innnerHTML = parseIntn1.value - parseIntn2.value}
+        function Dividir() {
+        resultado.innnerHTML = parseIntn1.value / parseIntn2.value}
+        function Multiplicar() {
+        resultado.innnerHTML = parseIntn1.value * parseIntn2.value}
+    </script>
+
+
+</body>
+</html>
